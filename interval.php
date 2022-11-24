@@ -34,7 +34,7 @@ class Interval
     public function __toString()
     {
         // выведет результат в виде массива
-        // ['years' => '', 'months' => '', 'days' => '']
+        //  ['years' => '', 'months' => '', 'days' => '']
         $this->arrDate = ['years' => $this->toYears(), 'months' => $this->toMonths(), 'days' => $this->toDays()];
         return (string) $this->arrDate;
     }

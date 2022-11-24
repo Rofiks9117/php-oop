@@ -7,9 +7,9 @@ require_once 'interval.php';
 
 	$interval = new Interval($date1, $date2);
 
-	echo $interval->toDays();   // выведет разницу в днях
+	echo $interval->toDays();   //  выведет разницу в днях
 	echo '<br>';
-	echo $interval->toMonths(); // выведет разницу в месяцах
+	echo $interval->toMonths(); //  выведет разницу в месяцах
 	echo '<br>';
-	echo $interval->toYears();  // выведет разницу в годах
+	echo $interval->toYears();  //  выведет разницу в годах
 ?>
